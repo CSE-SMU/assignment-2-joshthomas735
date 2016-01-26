@@ -1,0 +1,146 @@
+* {
+	box-sizing:border-box;
+}
+
+.center {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin:auto;
+}
+
+.face {
+	height: 55rem;
+	width: 45rem;
+	background-color: #ffe0bd ;
+	border-radius: 30em;
+}
+
+.eyes {
+	
+}
+
+.eye {
+	position:relative;
+	height: 5rem;
+	width: 5rem;
+	background-color: #FFF;
+	border-radius: 50%;
+	display: inline-block;
+	left: 2.5rem;
+	margin: 7.5rem;
+}
+
+.eye::before {
+	content: "";
+	position: absolute;
+	height: 1rem;
+	width: 6rem;
+	background-color: #ffe0bd;
+	border-radius: 0.5rem;
+	border-top-left-radius: 1.5rem;
+	border-top: 0.4rem solid #773b04;
+	top: -1.5rem;
+	left: -0.4rem;
+}
+
+.eye::after {
+	content: "";
+	height:1.5rem;
+	width: 1.5rem;
+	border-radius: 50%;
+	position:absolute;
+	top: .5rem;
+	left: .5rem;
+	background-color: black;
+	border: 1.25rem #50bacb solid;
+}
+
+.nose {
+	height: 8rem;
+	width: 5rem;
+	background-color: #dbb899;
+	border-radius: 4rem;
+	position: relative;
+	top: 13rem;
+}
+
+.nose::before{
+	content: "";
+	position: absolute;
+	height: 4rem;
+	width: 4rem;
+	background-color: #dbb899;
+	top: 4rem;
+	left: -0.5rem;
+	border-radius: 50%;
+}
+
+.nose::after{
+	content: "";
+	position: absolute;
+	height: 4rem;
+	width: 4rem;
+	background-color: #dbb899;
+	top: 4rem;
+	left: 1.5rem;
+	border-radius: 50%;
+}
+
+.mouth {
+ 	position: relative; 
+	height: 6rem;
+	width: 27rem;
+	overflow: hidden;
+	top: 15rem;
+}
+
+.mouth::before {
+	content: "";
+	position:absolute;
+	height: 35rem;
+	width: 35rem;
+	background-color: black;
+	border-radius: 50%;
+	top: -28rem;
+	left: -4rem;
+}
+
+.mouth::after {
+	content: "";
+	position:absolute;
+	height: 4rem;
+	width: 12rem;
+	background-color: red;
+	border-radius: 3rem;
+	top: 4rem;
+	left: 7.5rem;
+}
+
+.hair {
+	position: absolute;
+	height: 22rem;
+	width: 45rem;
+	overflow: hidden;
+}
+
+.hair::before{
+	content:"";
+	position:absolute;
+	height: 55rem;
+	width: 45rem;
+	border-radius: 30rem;
+	background-color: #c55f2a;
+}
+
+.hair::after {
+	content: "";
+	height: 0;
+	width: 0;
+	border-left: 2rem solid transparent;
+	border-right: 2rem solid transparent;
+	border-bottom: 3.5rem solid #ffe0bd;
+	position: absolute;
+	top: 19rem;
+	left: 36rem;
+}
