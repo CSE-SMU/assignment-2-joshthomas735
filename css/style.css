@@ -16,10 +16,6 @@
 	border-radius: 30em;
 }
 
-.eyes {
-	
-}
-
 .eye {
 	position:relative;
 	height: 5rem;
@@ -143,4 +139,33 @@
 	position: absolute;
 	top: 19rem;
 	left: 36rem;
+}
+
+.hat { 
+	position:absolute;
+	height: 20rem;
+	width: 45rem;
+	background-color: #0d0d0d;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+
+.hat::before { 
+	content: "";
+	position: absolute;
+	width: 55rem;
+	height: 5rem;
+	background-color: #0d0d0d;
+	border-radius: 3rem;
+	top: 15rem;
+	left: -5rem;
+}
+
+.hat::after {
+	content: "";
+	position: absolute;
+	width: 45rem;
+	height: 3rem;
+	background-color: rebeccapurple;
+	top: 12rem;
 }
