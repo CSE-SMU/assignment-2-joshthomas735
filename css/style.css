@@ -62,24 +62,29 @@
 }
 
 .nose::before{
-	content: "";
+	content: "\2022";
+	text-align: center;
+	font-size: 5rem;
+	display: block;
 	position: absolute;
 	height: 4rem;
 	width: 4rem;
 	background-color: #dbb899;
 	top: 4rem;
-	left: -0.5rem;
+	left: -1rem;
 	border-radius: 50%;
 }
 
 .nose::after{
-	content: "";
+	content: "\2022";
 	position: absolute;
+	text-align: center;
+	font-size: 5rem;
 	height: 4rem;
 	width: 4rem;
 	background-color: #dbb899;
 	top: 4rem;
-	left: 1.5rem;
+	left: 2rem;
 	border-radius: 50%;
 }
 
